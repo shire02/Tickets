@@ -15,6 +15,7 @@ namespace Sweet.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: CTickets
+        //i will add a surch
         public ActionResult Index()
         {
             ModelState.Clear();
